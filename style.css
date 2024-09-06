@@ -1,0 +1,67 @@
+body {
+  background-color: #27352d;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  padding: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+main, section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.title {
+  color: #ffa500;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+.img-perfil {
+  width: 350px;
+  height: 350px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.sobre-mim-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  border: 1px solid #f9f9f9;
+  border-radius: 16px;
+}
+.sobre-mim-container p {
+  opacity: 0.6;
+}
+.sobre-mim-container a {
+  color: whitesmoke;
+}
+.sobre-mim-container a:hover {
+  color: #ffa500;
+}
+
+#item-1 {
+  color: rgb(0, 72, 255);
+}
+#item-2 {
+  color: rgb(255, 0, 238);
+}
+#item-3 {
+  color: rgb(0, 204, 255);
+}
+#item-4 {
+  color: rgb(255, 0, 0);
+}
